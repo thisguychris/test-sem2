@@ -1,0 +1,27 @@
+{
+  "name": "test-semaphore",
+  "version": "1.0.0",
+  "description": "test semaphore",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pta": "^0.1.3"
+  },
+  "scripts": {
+    "test": "pta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisguychris/test-semaphore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisguychris/test-semaphore/issues"
+  },
+  "homepage": "https://github.com/thisguychris/test-semaphore#readme"
+}
