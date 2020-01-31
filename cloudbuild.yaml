@@ -1,1 +1,9 @@
-
+steps:
+- name: 'node:10-alpine'
+  id: 'Install dependencies'
+  entrypoint: npm
+  args: ['ci']
+- name: 'node:10-alpine'
+  id: 'Lint and integration tests'
+  entrypoint: npm
+  args: ['test']
