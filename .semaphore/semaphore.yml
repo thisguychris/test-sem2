@@ -17,6 +17,7 @@ blocks:
             - cache store
             - npm run build --if-present
             - npm test
+            - echo hello
 promotions:
   - name: Promotion 1
     pipeline_file: pipeline_2.yml
