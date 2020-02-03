@@ -19,5 +19,5 @@ blocks:
             - npm test
             - echo hello
 promotions:
-  - name: staging
+  - name: test
     pipeline_file: pipeline_2.yml
